@@ -2,9 +2,7 @@ import { getPosts } from "@/actions/post.action";
 import { getDbUserId } from "@/actions/user.action";
 import { CreatePost } from "@/components/CreatePost";
 import PostCard from "@/components/PostCard";
-import { Button } from "@/components/ui/button";
 import WhoToFollow from "@/components/WhoToFollow";
-import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from "@clerk/nextjs";
 import { currentUser } from "@clerk/nextjs/server";
 
 export default async function Home() {

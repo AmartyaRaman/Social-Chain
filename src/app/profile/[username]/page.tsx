@@ -1,3 +1,5 @@
+"use server"
+
 import { getProfileByUsername, getUserLikedPosts, getUserPosts, isFollowing } from "@/actions/profile.action"
 import { Description } from "@radix-ui/react-dialog";
 import { notFound } from "next/navigation";
